@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" cellspacing = "0">
+        <tr>
+            <td width = "100">foo</td>
+            <td>bar</td>
+            <td>baz</td>
+        </tr>
+        <tr>
+            <td>
+            <table border="1" cellspacing = "0" width = "100">
+                <tr>
+                    <td>one</td>
+                    <td>two</td>
+                    <td>three</td>
+                </tr>
+                <tr>
+                    <td>four</td>
+                    <td>five</td>
+                    <td>six</td>
+                </tr>
+                <tr>
+                    <td>seven</td>
+                    <td>eigth</td>
+                    <td>nine</td>
+                </tr>
+            </table>
+        </td>
+        <td rowspan = "2" colspan = "2">
+            <table border="1" cellspacing = "0" width = "100">
+                <tr height = "45">
+                    <td>eins</td>
+                    <td>zwei</td>
+                    <td rowspan = "4">drei sechs</td>
+                </tr>
+                <tr height = "45">
+                    <td rowspan="2">vier</td>
+                    <td rowspan="2">funf</td>
+                </tr>
+            </table>
+        </td>
+        
+        </tr>
+        <tr colspan = "3">
+            <td>abc</td>
+            
+        </tr>
+    </table>
+</body>
+</html>
