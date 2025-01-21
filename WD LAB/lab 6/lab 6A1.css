@@ -1,0 +1,37 @@
+body{
+   background-color: cadetblue;
+}
+#header{
+   background-color: darkmagenta;
+   width: 95%;
+   color: white;
+}
+#content{
+   background-color: orange;
+   width: 95%;
+   height: 300px;
+}
+#xyz{
+   float: left;
+   width: 60%;
+}
+#enter{
+   background-color: black;
+   color: white;
+   width: 300px;
+   height: 25px;
+   margin: 10px;
+}
+#sb{
+   background-color: black;
+   margin: 10px;
+   width: 30%;
+   float: right;
+   height: 100px;
+   color: white;
+}
+#clg{
+   color: white;
+   background-color:blue;
+   width: 95%;
+}
