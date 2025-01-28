@@ -1,0 +1,68 @@
+#parent{
+   position: relative;
+}
+#child{
+   position: absolute;
+   right: 100px;
+   top: 20px;
+   font-size: medium;
+}
+.pqr{
+   position: relative;
+   height: 300px;
+}
+.xyz{
+   background-color: crimson;
+   width: 200px;
+   height: 310px;
+  position: relative;
+   
+}
+#sidebar{
+   border:2px solid orange;
+}
+#home{
+   border:2px solid orange;
+   height: 50px;
+   
+}
+#placement{
+   
+   border:2px solid orange;
+   top: 200px;
+   height: 50px;
+}
+#recur{
+   border:2px solid orange;
+   height: 50px;
+}
+#Faculty{
+   border:2px solid orange;
+   height: 50px;
+}
+#news{
+   border:2px solid orange;
+   height: 50px;
+}
+#empty{
+   border:2px solid orange;
+   height: 10px;
+}
+.abc{
+   width: 700px;
+   position: absolute;
+   left: 200px;
+   top:0px;
+  
+  
+}
+#footer{
+   text-align: center;
+   background-color: blue;
+   height: 50px;
+}
+#first{
+   margin-bottom: 30px;
+   
+
+}
